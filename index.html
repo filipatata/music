@@ -51,7 +51,7 @@
                                 <div class="sublist-icon">
                                     <i class="fa-solid fa-house"></i>
                                 </div>
-                                <div class="sublist-name">home</div>
+                                <div class="sublist-name">STARTOWA</div>
                             </li>
 
                         </ul>
@@ -65,7 +65,7 @@
                                     <i class="bi bi-file-music-fill"></i>
                                 </div>
                                 <div class="sublist-name" id="lofisongs">
-                                    Lofi
+                                    FOTO
                                 </div>
                             </li>
                         </ul>
@@ -78,7 +78,7 @@
                                     <i class="bi bi-bell-fill"></i>
                                 </div>
                                 <div class="sublist-name" id="devotionalSongs">
-                                    Devotional 
+                                    VIDEO 
                                 </div>
                             </li>
                         </ul>
@@ -153,6 +153,8 @@
                                 <a class="social-link bi-btn" id="fbshare"
                                     href="https://facebook.com/sharer/sharer.php?u=https://iamsonukushwaha.github.io/tarana"
                                     target="_blank"><i class="bi bi-facebook"></i></a>
+                                <a class="social-link bi-btn" id="copyLink" href="javascript:void(0)"
+                                    title="copy link of this song"><i class="bi bi-clipboard"></i></a>
                                 <a class="social-link bi-btn" id="twshare"
                                     href="https://twitter.com/intent/tweet?text=https://iamsonukushwaha.github.io/tarana"
                                     target="_blank"><i class="bi bi-twitter"></i></a>
@@ -196,7 +198,7 @@
                         <div class="play-icon">
                             <i class="bi bi-music-note-list"></i>
                         </div>
-                        <div class="playlist-name">PLAYLIST</div>
+                        <div class="playlist-name">WYBIERZ KIERUNEK</div>
                     </div>
 
                     <div class="main-list">
@@ -267,6 +269,10 @@
 
             document.getElementById("devotionalSongs").addEventListener("click", function () {
                 window.open("./devotional", "_self");
+            });
+
+            document.getElementById("lofisongs").addEventListener("click", function () {
+                window.open("./foto", "_self");
             });
 
         </script>
