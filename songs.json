@@ -3,7 +3,7 @@
 		{
 			"id": "1",
 			"name": "Aabaad Barbaad",
-			"path": "music/Boc_1.mp3",
+			"path": "music/BOC_1.MP3",
 			"img": "img/boc_1.jpg",
 			"singer": "Boards of Canada",
 			"genre": "Romantic"
@@ -11,15 +11,15 @@
 		{
 			"id": "2",
 			"name": "Aankh Marey",
-			"path": "music/Boc_2.mp3",
+			"path": "music/BOC_2.MP3",
 			"img": "img/boc_2.jpg",
-			"singer": "Kumar Sanu, Mika Singh & Neha Kakkar",
+			"singer": "Boards of Canada",
 			"genre": "HotHits"
 		},
 		{
 			"id": "3",
 			"name": "Aao Kabhi Haveli Pe",
-			"path": "music/Boc_3.mp3",
+			"path": "music/BOC_1.MP3",
 			"img": "img/boc_3.jpg",
 			"singer": "Boards of Canada",
 			"genre": "HotHits"
@@ -27,7 +27,7 @@
 		{
 			"id": "4",
 			"name": "Aashiq Surrender Hua",
-			"path": "music/Boc_4.mp3",
+			"path": "music/BOC_1.MP3",
 			"img": "img/boc_4.jpg",
 			"singer": "Boards of Canada",
 			"genre": "HotHits"
