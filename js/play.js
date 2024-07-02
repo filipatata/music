@@ -51,7 +51,7 @@ playlist.addEventListener("click", () => {
 })
 
 const id = new URLSearchParams(window.location.search).get('id');
-const url = `https://iamsonukushwaha.github.io/tarana/songs.json`;
+const url = `https://filipatata.github.io/music/songs.json`;
 
 const renderDetails = async () => {
     fetch(url)
@@ -99,7 +99,7 @@ function shareplay() {
     // Function to handle sharing options
     const copyLink = document.getElementById('copyLink');
     copyLink.onclick = () => {
-        var songlink = `https://iamsonukushwaha.github.io/tarana/?id=${index_no + 1}`;
+        var songlink = `https://filipatata.github.io/music/?id=${index_no + 1}`;
         navigator.clipboard.writeText(songlink)
             .then(() => {
                 alert("Song link copied to clipboard " + songlink);
@@ -109,11 +109,11 @@ function shareplay() {
             });
     }
     const fbshare = document.getElementById('fbshare');
-    fbshare.href = `https://facebook.com/sharer/sharer.php?u=https://iamsonukushwaha.github.io/tarana/?id=${index_no + 1}`
+    fbshare.href = `https://facebook.com/sharer/sharer.php?u=https://filipatata.github.io/music/?id=${index_no + 1}`
     const twshare = document.getElementById('twshare');
     twshare.href = `https://twitter.com/intent/tweet?text=https://iamsonukushwaha.github.io/tarana/?id=${index_no + 1}`
     const whshare = document.getElementById('whshare');
-    whshare.href = `https://api.whatsapp.com/send/?text=https://iamsonukushwaha.github.io/tarana/?id=${index_no + 1}`
+    whshare.href = `https://api.whatsapp.com/send/?text=https://filipatata.github.io/music/?id=${index_no + 1}`
 }
 
 // creating an audio Element.
