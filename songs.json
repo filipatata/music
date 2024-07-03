@@ -12,7 +12,7 @@
 			"id": "2",
 			"name": "Aankh Marey",
 			"path": "music/BOC_2.MP3",
-			"img": "img/boc_2.jpg",
+			"img": "img/image004.gif",
 			"singer": "Boards of Canada",
 			"genre": "HotHits"
 		},
@@ -20,7 +20,7 @@
 			"id": "3",
 			"name": "Aao Kabhi Haveli Pe",
 			"path": "music/BOC_1.MP3",
-			"img": "img/boc_3.jpg",
+			"img": "img/image005.gif",
 			"singer": "Boards of Canada",
 			"genre": "HotHits"
 		},
