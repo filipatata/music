@@ -260,7 +260,7 @@ body {
 
 .image {
     width: 250px;
-    height: 290px;
+    height: 250px;
     border-radius: 9px;
     position: relative;
     object-fit: contain;
@@ -448,7 +448,7 @@ input[type=range]::-moz-range-progress {
 
 
 .playlist {
-    width: 550px;
+    width: 450px;
     position: absolute;
     right: 0;
     top: 70px;
