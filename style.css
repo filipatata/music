@@ -31,6 +31,10 @@ body {
     scrollbar-color: grey transparent;
     flex-shrink: 0;
     flex-basis: 260px;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    z-index: 1;
 }
 
 .logo,
@@ -260,7 +264,7 @@ body {
 
 .image {
     width: 250px;
-    height: 290px;
+    height: 250px;
     border-radius: 9px;
     position: relative;
     object-fit: contain;
@@ -565,28 +569,21 @@ input[type=range]::-moz-range-progress {
         flex-basis: 100%;
     }
 
-}
-    .sidenav {
-        position: fixed;
-        top: 0;
-        left: -100%;
-        z-index: 1;
-    }
 
-    .menu-btn {
+.menu-btn {
         display: flex;
     }
 
-    .mobi-logo {
+.mobi-logo {
         display: flex;
         
     }
 
-    .song-slate {
+.song-slate {
         padding-left: 0;
         justify-content: center;
     }
 
-    .duration .track input {
+.duration .track input {
         width: 420px;
     }
