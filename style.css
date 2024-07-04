@@ -31,10 +31,6 @@ body {
     scrollbar-color: grey transparent;
     flex-shrink: 0;
     flex-basis: 260px;
-    position: fixed;
-    top: 0;
-    left: -100%;
-    z-index: 1;
 }
 
 .logo,
@@ -569,6 +565,15 @@ input[type=range]::-moz-range-progress {
         flex-basis: 100%;
     }
 
+.sidenav {
+        padding: 30px 20px;
+        flex-basis: 240px;
+        position: fixed;
+        width: 70vw;
+        top: 0;
+        left: -100%;
+        z-index: 1;
+    }
 
 .menu-btn {
         display: flex;
