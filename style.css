@@ -31,7 +31,10 @@ body {
     scrollbar-color: grey transparent;
     flex-shrink: 0;
     flex-basis: 260px;
+    left: -100%;
+    z-index: 1;
 }
+
 
 .logo,
 .nav-list,
@@ -557,6 +560,17 @@ input[type=range]::-moz-range-progress {
         overflow-y: scroll;
     }
 
+    .sidenav {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        z-index: 1;
+    }
+
+    .menu-btn {
+        display: flex;
+    }
+    
     .music-controls {
         position: fixed;
         bottom: 0;
@@ -579,15 +593,32 @@ input[type=range]::-moz-range-progress {
     }
 
     .sidenav {
-        height: 100% !important;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        z-index: 1;
     }
 
+    .menu-btn {
+        display: flex;
+    }
     .music-player {
         height: auto !important;
     }
 }
 
 @media (max-width:1210px) {
+    .sidenav {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        z-index: 1;
+    }
+
+    .menu-btn {
+        display: flex;
+    }
+    
     .playlist {
         width: 300px;
     }
@@ -697,12 +728,33 @@ input[type=range]::-moz-range-progress {
 }
 
 @media (max-width: 800px) {
+    .sidenav {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        z-index: 1;
+    }
+
+    .menu-btn {
+        display: flex;
+    }
+    
     .duration .track input {
         width: 220px;
     }
 }
 
 @media (max-width: 688px) {
+    .sidenav {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        z-index: 1;
+    }
+
+    .menu-btn {
+        display: flex;
+    }
     .player-head {
         flex-direction: column;
         gap: 5px;
