@@ -565,7 +565,28 @@ input[type=range]::-moz-range-progress {
         flex-basis: 100%;
     }
 
-.duration .track input {
-        width: 280px;
-    }
 }
+    .sidenav {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        z-index: 1;
+    }
+
+    .menu-btn {
+        display: flex;
+    }
+
+    .mobi-logo {
+        display: flex;
+        
+    }
+
+    .song-slate {
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    .duration .track input {
+        width: 420px;
+    }
