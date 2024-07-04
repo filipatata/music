@@ -593,6 +593,21 @@ input[type=range]::-moz-range-progress {
         width: 420px;
     }
 
+.playlist {
+        position: static;
+        width: 80%;
+        margin: 10px auto 0;
+        z-index: 0;
+        height: fit-content;
+        background-color: #1f3866;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+.sidenav {
+        height: 100vh;
+    }
+
 .music-player {
         height: 100vh;
     }
@@ -617,3 +632,10 @@ input[type=range]::-moz-range-progress {
         border-radius: 4px;
     }
 
+#list.play_open {
+        height: 40vh;
+    }
+
+.music-player {
+        flex-basis: 100%;
+    }
