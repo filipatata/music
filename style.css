@@ -448,11 +448,16 @@ input[type=range]::-moz-range-progress {
 
 
 .playlist {
-    width: 550px;
-    position: absolute;
     right: 0;
     top: 70px;
-    height: 400px;
+    position: static;
+    width: 80%;
+    margin: 10px auto 0;
+    z-index: 0;
+    height: fit-content;
+    background-color: #1f3866;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .main-list {
@@ -523,99 +528,25 @@ input[type=range]::-moz-range-progress {
 
 /* responsiveness */
 
-@media (min-height: 650px) and (min-width: 1160px) {
-    .sub-nav-list {
-        margin: 10px 0;
-    }
 
-    .list {
-        margin-top: 30px;
-    }
-
-    .playlist {
-        height: 550px;
-    }
-
-    .main-list .track_list {
-        height: 395px;
-    }
-}
-
-@media (max-height: 590px) and (max-width: 970px) {
-    body {
-        overflow-y: scroll;
-    }
-
-    .music-controls {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-    }
-
-    .music-player {
-        height: 100% !important;
-    }
-
-    .playlist {
-        margin-bottom: 90px !important;
-    }
-}
-
-@media (max-height: 590px) and (min-width: 970px) {
-    body {
-        overflow-y: scroll;
-    }
-
-    .sidenav {
-        height: 100% !important;
-    }
-
-    .music-player {
-        height: auto !important;
-    }
-}
-
-@media (max-width:1210px) {
-    .playlist {
-        width: 300px;
-    }
-
-    .music-player {
-        flex-basis: 100%;
-    }
-}
-
-@media (max-width:1160px) {
-    .playlist {
-        position: static;
-        width: 80%;
-        margin: 10px auto 0;
-        z-index: 0;
-        height: fit-content;
-        background-color: #1f3866;
-        border-radius: 4px;
-        cursor: pointer;
-    }
-
-    .sidenav {
+.sidenav {
         height: 100vh;
     }
 
-    .music-player {
+.music-player {
         height: 100vh;
     }
 
-    .play-title {
+.play-title {
         padding: 10px 30px;
     }
 
-    .main-list {
+.main-list {
         position: relative;
         margin-top: 0;
     }
 
-    #list {
+#list {
         position: absolute;
         bottom: 0;
         left: 0;
@@ -626,122 +557,15 @@ input[type=range]::-moz-range-progress {
         border-radius: 4px;
     }
 
-    #list.play_open {
+#list.play_open {
         height: 40vh;
     }
 
-    .music-player {
+.music-player {
         flex-basis: 100%;
     }
 
-    .duration .track input {
+.duration .track input {
         width: 280px;
     }
-}
-
-@media (max-width: 1000px) {
-    .sidenav {
-        padding: 30px 20px;
-        flex-basis: 240px;
-    }
-}
-
-@media (max-width: 970px) {
-    .sidenav {
-        position: fixed;
-        top: 0;
-        left: -100%;
-        z-index: 1;
-    }
-
-    .menu-btn {
-        display: flex;
-    }
-
-    .mobi-logo {
-        display: flex;
-        
-    }
-
-    .song-slate {
-        padding-left: 0;
-        justify-content: center;
-    }
-
-    .duration .track input {
-        width: 420px;
-    }
-}
-
-@media (max-width: 800px) {
-    .duration .track input {
-        width: 220px;
-    }
-}
-
-@media (max-width: 688px) {
-    .player-head {
-        flex-direction: column;
-        gap: 5px;
-    }
-
-    .links {
-        position: absolute;
-        top: 30px;
-        right: 5px;
-    }
-
-    .search {
-        /* width: 100%; */
-        display: none;
-    }
-    
-    
-
-    .menu-btn {
-        display: flex;
-    }
-}
-
-@media (max-width: 580px) {
-    .image {
-        width: 250px;
-        height: 190px;
-        margin: 0 auto;
-    }
-
-    .song-slate {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .right-slate {
-        flex-direction: row;
-        padding-bottom: 0;
-    }
-
-    .track-stuff {
-        display: none;
-    }
-
-    .duration .track input {
-        width: 125px;
-    }
-
-    .sidenav {
-        width: 70vw;
-    }
-
-    .volume{
-        margin-left: 20px;
-    }
-
-    .playlist{
-        width: 100%;
-    }
-
-    .logo-title {
-        font-size: 1.2rem;
-    }
-
 }
