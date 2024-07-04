@@ -459,7 +459,7 @@ themebtn.onclick = function () {
 }
 
 // dark
-function ch() {
+function n_ch() {
     themebtn.style.color = "#fff";
     themebtn.style.backgroundColor = "#1d2742";
     body.style.backgroundColor = "black";
@@ -507,7 +507,7 @@ function ch() {
 }
 
 // light
-function n_ch() {
+function ch() {
     themebtn.style.color = "white";
     themebtn.style.backgroundColor = "#143599";
     body.style.backgroundColor = "white";
