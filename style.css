@@ -31,10 +31,7 @@ body {
     scrollbar-color: grey transparent;
     flex-shrink: 0;
     flex-basis: 260px;
-    left: -100%;
-    z-index: 1;
 }
-
 
 .logo,
 .nav-list,
@@ -263,7 +260,7 @@ body {
 
 .image {
     width: 250px;
-    height: 250px;
+    height: 290px;
     border-radius: 9px;
     position: relative;
     object-fit: contain;
@@ -451,7 +448,7 @@ input[type=range]::-moz-range-progress {
 
 
 .playlist {
-    width: 450px;
+    width: 550px;
     position: absolute;
     right: 0;
     top: 70px;
@@ -527,17 +524,6 @@ input[type=range]::-moz-range-progress {
 /* responsiveness */
 
 @media (min-height: 650px) and (min-width: 1160px) {
-    .sidenav {
-        position: fixed;
-        top: 0;
-        left: -100%;
-        z-index: 1;
-    }
-
-    .menu-btn {
-        display: flex;
-    }
-    
     .sub-nav-list {
         margin: 10px 0;
     }
@@ -560,17 +546,6 @@ input[type=range]::-moz-range-progress {
         overflow-y: scroll;
     }
 
-    .sidenav {
-        position: fixed;
-        top: 0;
-        left: -100%;
-        z-index: 1;
-    }
-
-    .menu-btn {
-        display: flex;
-    }
-    
     .music-controls {
         position: fixed;
         bottom: 0;
@@ -593,32 +568,15 @@ input[type=range]::-moz-range-progress {
     }
 
     .sidenav {
-        position: fixed;
-        top: 0;
-        left: -100%;
-        z-index: 1;
+        height: 100% !important;
     }
 
-    .menu-btn {
-        display: flex;
-    }
     .music-player {
         height: auto !important;
     }
 }
 
 @media (max-width:1210px) {
-    .sidenav {
-        position: fixed;
-        top: 0;
-        left: -100%;
-        z-index: 1;
-    }
-
-    .menu-btn {
-        display: flex;
-    }
-    
     .playlist {
         width: 300px;
     }
@@ -641,15 +599,9 @@ input[type=range]::-moz-range-progress {
     }
 
     .sidenav {
-        position: fixed;
-        top: 0;
-        left: -100%;
-        z-index: 1;
+        height: 100vh;
     }
 
-    .menu-btn {
-        display: flex;
-    }
     .music-player {
         height: 100vh;
     }
@@ -689,14 +641,8 @@ input[type=range]::-moz-range-progress {
 
 @media (max-width: 1000px) {
     .sidenav {
-        position: fixed;
-        top: 0;
-        left: -100%;
-        z-index: 1;
-    }
-
-    .menu-btn {
-        display: flex;
+        padding: 30px 20px;
+        flex-basis: 240px;
     }
 }
 
@@ -728,33 +674,12 @@ input[type=range]::-moz-range-progress {
 }
 
 @media (max-width: 800px) {
-    .sidenav {
-        position: fixed;
-        top: 0;
-        left: -100%;
-        z-index: 1;
-    }
-
-    .menu-btn {
-        display: flex;
-    }
-    
     .duration .track input {
         width: 220px;
     }
 }
 
 @media (max-width: 688px) {
-    .sidenav {
-        position: fixed;
-        top: 0;
-        left: -100%;
-        z-index: 1;
-    }
-
-    .menu-btn {
-        display: flex;
-    }
     .player-head {
         flex-direction: column;
         gap: 5px;
@@ -781,7 +706,7 @@ input[type=range]::-moz-range-progress {
 @media (max-width: 580px) {
     .image {
         width: 250px;
-        height: 250px;
+        height: 190px;
         margin: 0 auto;
     }
 
