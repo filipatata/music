@@ -621,20 +621,21 @@ input[type=range]::-moz-range-progress {
         margin-top: 0;
     }
 
+#list.play_open {
+        height: 40vh;
+    }
+
 #list {
         position: absolute;
         bottom: 0;
         left: 0;
-        height: 0;
         background-color: rgba(57, 77, 134, 0.9);
         margin-bottom: 52px;
         width: 100%;
         border-radius: 4px;
     }
 
-#list.play_open {
-        height: 40vh;
-    }
+
 
 .music-player {
         flex-basis: 100%;
