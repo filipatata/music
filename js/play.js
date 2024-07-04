@@ -512,7 +512,7 @@ function ch() {
     themebtn.style.backgroundColor = "#143599";
     body.style.backgroundColor = "white";
     m.style.backgroundColor = "#FFFAFA";
-    sidenav.style.backgroundColor = "#03164d";
+    sidenav.style.backgroundColor = "#36260c";
     playlist.style.color = "black";
     active_tab.style.backgroundColor = "#072888";
     music_controls.style.backgroundColor = "#5a75c6 ";
