@@ -517,7 +517,7 @@ function n_ch() {
     active_tab.style.backgroundColor = "#072888";
     music_controls.style.backgroundColor = "#5a75c6 ";
     music_player.style.background = "#080f24";
-    music_player.style.background = "linear-gradient(#0a388e 1%, #b1f0f7 80%)";
+    // music_player.style.background = "linear-gradient(#0a388e 1%, #b1f0f7 80%)";
     // shuffle.style.backgroundColor = "#0876ec";
     // repeat.style.backgroundColor = "#0876ec";
     song_slate.style.color = "black";
