@@ -592,3 +592,28 @@ input[type=range]::-moz-range-progress {
 .duration .track input {
         width: 420px;
     }
+
+.music-player {
+        height: 100vh;
+    }
+
+.play-title {
+        padding: 10px 30px;
+    }
+
+.main-list {
+        position: relative;
+        margin-top: 0;
+    }
+
+#list {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 0;
+        background-color: rgba(57, 77, 134, 0.9);
+        margin-bottom: 52px;
+        width: 100%;
+        border-radius: 4px;
+    }
+
