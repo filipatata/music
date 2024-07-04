@@ -524,6 +524,17 @@ input[type=range]::-moz-range-progress {
 /* responsiveness */
 
 @media (min-height: 650px) and (min-width: 1160px) {
+    .sidenav {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        z-index: 1;
+    }
+
+    .menu-btn {
+        display: flex;
+    }
+    
     .sub-nav-list {
         margin: 10px 0;
     }
@@ -599,9 +610,15 @@ input[type=range]::-moz-range-progress {
     }
 
     .sidenav {
-        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        z-index: 1;
     }
 
+    .menu-btn {
+        display: flex;
+    }
     .music-player {
         height: 100vh;
     }
@@ -641,8 +658,14 @@ input[type=range]::-moz-range-progress {
 
 @media (max-width: 1000px) {
     .sidenav {
-        padding: 30px 20px;
-        flex-basis: 240px;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        z-index: 1;
+    }
+
+    .menu-btn {
+        display: flex;
     }
 }
 
@@ -706,7 +729,7 @@ input[type=range]::-moz-range-progress {
 @media (max-width: 580px) {
     .image {
         width: 250px;
-        height: 190px;
+        height: 250px;
         margin: 0 auto;
     }
 
