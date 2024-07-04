@@ -2,7 +2,6 @@ let previous = document.querySelector('#pre'),
     play = document.querySelector('#play'),
     next = document.querySelector('#next'),
     title = document.querySelector('#title'),
-    recent_volume = document.querySelector('#volume'),
     volume_icon = document.querySelector('#volume_icon'),
     volume_show = document.querySelector('#volume_show'),
     slider = document.querySelector('#duration_slider'),
@@ -130,7 +129,6 @@ function GetAllSongs(index_no) {
     timer = setInterval(range_slider, 1000);
     total.innerHTML = All_song.length;
     present.innerHTML = index_no + 1;
-    track.volume = recent_volume.value / 100;
     All_song.forEach(element => {
         genLink(element);
     });
@@ -442,8 +440,6 @@ const active_tab = document.querySelector(".active"),
     music_player = document.querySelector(".music-player"),
     bi_btn = document.querySelectorAll(".bi-btn"),
     song_slate = document.querySelector(".song-slate"),
-    volu = document.querySelector(".vol"),
-    vol_range = document.querySelector(".vol-range"),
     list_hover = document.querySelectorAll(".sub-nav-list"),
     playlist_hover = document.querySelectorAll(".track_list li");
 
@@ -473,8 +469,7 @@ function n_ch() {
     // repeat.style.backgroundColor = "#273251";
     song_slate.style.color = "#fff";
     play.style.backgroundColor = "#393d4d";
-    volu.style.backgroundColor = "#393d4d";
-    vol_range.style.backgroundColor = "#393d4d";
+
 
     bi_btn.forEach(btn => {
         btn.style.backgroundColor = "#1d2742"
@@ -522,8 +517,7 @@ function ch() {
     // repeat.style.backgroundColor = "#0876ec";
     song_slate.style.color = "black";
     play.style.backgroundColor = "#2d349f";
-    volu.style.backgroundColor = "#2d349f";
-    vol_range.style.backgroundColor = "#2d349f";
+
 
     bi_btn.forEach(btn => {
         btn.style.backgroundColor = "#143599"
