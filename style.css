@@ -599,7 +599,7 @@ input[type=range]::-moz-range-progress {
 
 .playlist {
         position: static;
-        width: 80%;
+        width: 50%;
         margin: 10px auto 0;
         z-index: 0;
         height: fit-content;
