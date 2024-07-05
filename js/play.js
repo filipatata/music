@@ -456,8 +456,6 @@ themebtn.onclick = function () {
 
 // dark
 function n_ch() {
-    themebtn.style.color = "#fff";
-    themebtn.style.backgroundColor = "#1d2742";
     body.style.backgroundColor = "black";
     m.style.backgroundColor = "#414A4C";
     sidenav.style.backgroundColor = "#192033"
