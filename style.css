@@ -604,6 +604,7 @@ input[type=range]::-moz-range-progress {
         z-index: 0;
         height: fit-content;
         background-color: #2f2009;
+        color: #ccaf57;
         border-radius: 4px;
         cursor: pointer;
     }
