@@ -283,17 +283,19 @@ body {
 
 .song-detail {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .song-detail .song-name {
     font-size: 1.2rem;
     font-weight: 500;
+    color: #6e8453;
 }
 
 .song-detail .artists {
     font-size: 0.8rem;
-    margin-top: 5px;
+    margin-top: 3px;
+    color: #c1a045;
 }
 
 .right-slate {
