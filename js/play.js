@@ -122,7 +122,7 @@ let track = document.createElement('audio');
 function GetAllSongs(index_no) {
     track.src = All_song[index_no].path;
     title.innerHTML = All_song[index_no].name;
-//    track_name.innerHTML = All_song[index_no].name;
+    track_name.innerHTML = All_song[index_no].name;
     track_image.src = All_song[index_no].img;
     artist.innerHTML = All_song[index_no].singer;
     track.load();
@@ -143,6 +143,7 @@ function genLink(e) {
         index_no = e.id - 1;
         track.src = All_song[e.id - 1].path;
         title.innerHTML = All_song[e.id - 1].name;
+        track_name.innerHTML = All_song[e.id - 1].name;
         track_image.src = e.img;
         artist.innerHTML = e.singer;
         present.innerHTML = All_song[e.id - 1].id;
@@ -169,6 +170,21 @@ play.onclick = function () {
 }
 
 var first = true;
+volume_icon.onclick = function () {
+    if (first) {
+        mute_sound();
+        first = false;
+        volume_icon.classList.add('fa-volume-off');
+        volume_icon.classList.remove('fa-volume-up');
+        volume_icon.title = "Unmute";
+    } else {
+        reset_sound();
+        first = true;
+        volume_icon.classList.remove('fa-volume-off');
+        volume_icon.classList.add('fa-volume-up');
+        volume_icon.title = "Mute";
+    }
+}
 
 // sound functions
 var curVolume, curVolVal;
@@ -207,6 +223,11 @@ function volume_change() {
         volume_icon.classList.remove('fa-volume-off');
         volume_icon.classList.add('fa-volume-up');
     }
+}
+
+recent_volume.oninput = function () {
+    volume_show.textContent = this.value;
+    track.volume = this.value / 100;
 }
 
 // reset song slider
@@ -482,6 +503,8 @@ function n_ch() {
 
 // light
 function ch() {
+    themebtn.style.color = "white";
+    themebtn.style.backgroundColor = "#143599";
     body.style.backgroundColor = "white";
     m.style.backgroundColor = "#FFFAFA";
     sidenav.style.backgroundColor = "#36260c";
