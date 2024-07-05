@@ -210,11 +210,6 @@ function volume_change() {
     }
 }
 
-recent_volume.oninput = function () {
-    volume_show.textContent = this.value;
-    track.volume = this.value / 100;
-}
-
 // reset song slider
 function reset_slider() {
     slider.value = 0;
