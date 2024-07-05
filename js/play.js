@@ -107,10 +107,7 @@ function shareplay() {
                 console.error('Error copying link to song: ', error);
             });
     }
-    const fbshare = document.getElementById('fbshare');
-    fbshare.href = `https://facebook.com/sharer/sharer.php?u=https://filipatata.github.io/music/?id=${index_no + 1}`
-    const twshare = document.getElementById('twshare');
-    twshare.href = `https://twitter.com/intent/tweet?text=https://iamsonukushwaha.github.io/tarana/?id=${index_no + 1}`
+
     const whshare = document.getElementById('whshare');
     whshare.href = `https://api.whatsapp.com/send/?text=https://filipatata.github.io/music/?id=${index_no + 1}`
 }
