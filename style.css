@@ -633,7 +633,7 @@ input[type=range]::-moz-range-progress {
         position: absolute;
         bottom: 0;
         left: 0;
-        background-color: rgba(57, 77, 134, 0.9);
+        background-color: rgba(29, 21, 0, 0.9);
         margin-bottom: 52px;
         width: 100%;
         border-radius: 4px;
