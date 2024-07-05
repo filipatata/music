@@ -318,7 +318,7 @@ body {
 
 .music-controls {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     position: fixed;
     bottom: 0;
     left: 0;
