@@ -482,8 +482,6 @@ function n_ch() {
 
 // light
 function ch() {
-    themebtn.style.color = "white";
-    themebtn.style.backgroundColor = "#143599";
     body.style.backgroundColor = "white";
     m.style.backgroundColor = "#FFFAFA";
     sidenav.style.backgroundColor = "#36260c";
