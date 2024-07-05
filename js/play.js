@@ -143,7 +143,6 @@ function genLink(e) {
         index_no = e.id - 1;
         track.src = All_song[e.id - 1].path;
         title.innerHTML = All_song[e.id - 1].name;
-        track_name.innerHTML = All_song[e.id - 1].name;
         track_image.src = e.img;
         artist.innerHTML = e.singer;
         present.innerHTML = All_song[e.id - 1].id;
