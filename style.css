@@ -572,7 +572,6 @@ input[type=range]::-moz-range-progress {
         padding: 30px 20px;
         flex-basis: 240px;
         position: fixed;
-        width: 70vw;
         top: 0;
         left: -100%;
         z-index: 1;
