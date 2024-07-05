@@ -330,7 +330,7 @@ body {
 }
 
 .track-stuff {
-    display: flex;
+    width: 1px;
     gap: 10px;
 }
 
@@ -346,6 +346,7 @@ body {
 }
 
 .track-name {
+    font-size: 0.01rem;
     width: 1px;
 }
 
