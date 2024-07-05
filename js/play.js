@@ -443,7 +443,7 @@ const active_tab = document.querySelector(".active"),
     list_hover = document.querySelectorAll(".sub-nav-list"),
     playlist_hover = document.querySelectorAll(".track_list li");
 
-ch();
+// ch();
 themebtn.onclick = function () {
     if (fc) {
         ch();
