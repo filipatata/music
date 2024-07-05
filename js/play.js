@@ -170,21 +170,6 @@ play.onclick = function () {
 }
 
 var first = true;
-volume_icon.onclick = function () {
-    if (first) {
-        mute_sound();
-        first = false;
-        volume_icon.classList.add('fa-volume-off');
-        volume_icon.classList.remove('fa-volume-up');
-        volume_icon.title = "Unmute";
-    } else {
-        reset_sound();
-        first = true;
-        volume_icon.classList.remove('fa-volume-off');
-        volume_icon.classList.add('fa-volume-up');
-        volume_icon.title = "Mute";
-    }
-}
 
 // sound functions
 var curVolume, curVolVal;
