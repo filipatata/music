@@ -122,7 +122,7 @@ let track = document.createElement('audio');
 function GetAllSongs(index_no) {
     track.src = All_song[index_no].path;
     title.innerHTML = All_song[index_no].name;
-    track_name.innerHTML = All_song[index_no].name;
+//    track_name.innerHTML = All_song[index_no].name;
     track_image.src = All_song[index_no].img;
     artist.innerHTML = All_song[index_no].singer;
     track.load();
