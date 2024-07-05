@@ -603,7 +603,7 @@ input[type=range]::-moz-range-progress {
         margin: 10px auto 0;
         z-index: 0;
         height: fit-content;
-        background-color: #1f3866;
+        background-color: #2f2009;
         border-radius: 4px;
         cursor: pointer;
     }
