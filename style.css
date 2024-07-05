@@ -55,7 +55,6 @@ body {
 .right-slate,
 .shuffle,
 .right-slate,
-.track-name,
 .reload,
 .vol,
 .share-btn,
@@ -344,6 +343,10 @@ body {
 
 .controls {
     display: flex;
+}
+
+.track-name {
+    width: 1px;
 }
 
 .controls button {
