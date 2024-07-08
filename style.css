@@ -375,7 +375,7 @@ body {
 .track .time {
     display: flex;
     justify-content: space-between;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
 
 input[type="range"] {
