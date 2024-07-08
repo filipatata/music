@@ -2,51 +2,67 @@
 	"songs": [
 		{
 			"id": "1",
-			"name": "Aabaad Barbaad",
+			"name": "MIND 01/07",
 			"path": "music/BOC_1.MP3",
-			"img": "img/image001.gif",
-			"singer": "Boargigggnada",
-			"genre": "Romantic"
+			"img": "img/kolo_03.gif",
+			"singer": "feat. headpace",
+			"genre": "ambient"
 		},
 		{
 			"id": "2",
-			"name": "Aankh Marey",
+			"name": "MIND 02/07",
 			"path": "music/BOC_2.MP3",
-			"img": "img/image004.gif",
+			"img": "img/kolo_07.gif",
 			"singer": "Boards of Canada",
-			"genre": "HotHits"
+			"genre": "ambient"
 		},
 		{
 			"id": "3",
-			"name": "Aao Kabhi Haveli Pe",
+			"name": "MIND 03/07",
 			"path": "music/BOC_1.MP3",
-			"img": "img/image005.gif",
-			"singer": "Boards of Canada",
-			"genre": "HotHits"
+			"img": "img/kolo_09.gif",
+			"singer": "Boargigggnada",
+			"genre": "ambient"
 		},
 		{
 			"id": "4",
-			"name": "Aashiq Surrender Hua",
-			"path": "music/BOC_1.MP3",
-			"img": "img/boc_4.jpg",
+			"name": "MIND 04/07",
+			"path": "music/BOC_2.MP3",
+			"img": "img/kolo_11.gif",
 			"singer": "Boards of Canada",
-			"genre": "HotHits"
+			"genre": "ambient"
 		},
-		{
+				{
 			"id": "5",
-			"name": "Agar Tum Mil Jao",
-			"path": "music/Boc_5.mp3",
-			"img": "img/boc_5.jpg",
-			"singer": "Shreya Ghoshal",
-			"genre": "Romantic"
+			"name": "MIND 05/07",
+			"path": "music/BOC_1.MP3",
+			"img": "img/kolo_13.gif",
+			"singer": "Boargigggnada",
+			"genre": "ambient"
 		},
 		{
 			"id": "6",
-			"name": "Akh Lad Jaave",
-			"path": "music/Akh_Lad_Jave.mp3",
-			"img": "img/Akh_Lad_Jave.jpeg",
-			"singer": "Asees Kaur, Badshah & Jubin Nautiyal",
-			"genre": "HotHits"
+			"name": "MIND 06/07",
+			"path": "music/BOC_2.MP3",
+			"img": "img/kolo_14.gif",
+			"singer": "Boards of Canada",
+			"genre": "ambient"
+		},
+				{
+			"id": "7",
+			"name": "MIND 07/07",
+			"path": "music/BOC_1.MP3",
+			"img": "img/kolo_21.gif",
+			"singer": "Boargigggnada",
+			"genre": "ambient"
+		},
+		{
+			"id": "8",
+			"name": "LIVE 01/08",
+			"path": "music/BOC_2.MP3",
+			"img": "img/kolo_23.gif",
+			"singer": "Boards of Canada",
+			"genre": "ambient"
 		}
 	]
 }
