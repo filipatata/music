@@ -4,7 +4,7 @@
 			"id": "1",
 			"name": "MIND 01/07",
 			"path": "music/BOC_1.MP3",
-			"img": "img/kolo_03.gif",
+			"img": "img/kolo_09.gif",
 			"singer": "feat. headpace",
 			"genre": "ambient"
 		},
@@ -12,7 +12,7 @@
 			"id": "2",
 			"name": "MIND 02/07",
 			"path": "music/BOC_2.MP3",
-			"img": "img/kolo_07.gif",
+			"img": "img/pat_06.gif",
 			"singer": "Boards of Canada",
 			"genre": "ambient"
 		},
@@ -20,7 +20,7 @@
 			"id": "3",
 			"name": "MIND 03/07",
 			"path": "music/BOC_1.MP3",
-			"img": "img/kolo_09.gif",
+			"img": "img/pat_07.gif",
 			"singer": "Boargigggnada",
 			"genre": "ambient"
 		},
@@ -28,7 +28,7 @@
 			"id": "4",
 			"name": "MIND 04/07",
 			"path": "music/BOC_2.MP3",
-			"img": "img/kolo_11.gif",
+			"img": "img/pat_36.gif",
 			"singer": "Boards of Canada",
 			"genre": "ambient"
 		},
@@ -36,7 +36,7 @@
 			"id": "5",
 			"name": "MIND 05/07",
 			"path": "music/BOC_1.MP3",
-			"img": "img/kolo_13.gif",
+			"img": "img/kolo_42.gif",
 			"singer": "Boargigggnada",
 			"genre": "ambient"
 		},
@@ -44,7 +44,7 @@
 			"id": "6",
 			"name": "MIND 06/07",
 			"path": "music/BOC_2.MP3",
-			"img": "img/kolo_14.gif",
+			"img": "img/kolo_41.gif",
 			"singer": "Boards of Canada",
 			"genre": "ambient"
 		},
@@ -52,7 +52,7 @@
 			"id": "7",
 			"name": "MIND 07/07",
 			"path": "music/BOC_1.MP3",
-			"img": "img/kolo_21.gif",
+			"img": "img/kolo_39.gif",
 			"singer": "Boargigggnada",
 			"genre": "ambient"
 		},
@@ -60,7 +60,7 @@
 			"id": "8",
 			"name": "LIVE 01/08",
 			"path": "music/BOC_2.MP3",
-			"img": "img/kolo_23.gif",
+			"img": "img/kolo_37.gif",
 			"singer": "Boards of Canada",
 			"genre": "ambient"
 		}
