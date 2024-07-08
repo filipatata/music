@@ -257,6 +257,11 @@ function previous_song() {
     }
 }
 
+if (track.ended) {
+    console.log("track ended");
+    next_song(); // Play the next song
+}
+
 var curmins, cursecs;
 
 // change slider position
