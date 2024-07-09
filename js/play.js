@@ -268,6 +268,13 @@ var curmins, cursecs;
 function change_duration() {
     slider_position = track.duration * (slider.value / 100);
     track.currentTime = slider_position;
+        if (track.ended) {
+        console.log("track ended");
+        next_song(); // Play the next song
+    } else {
+        console.log("ciagle gramy");   
+    }
+
 }
 
 function changeDur() {
