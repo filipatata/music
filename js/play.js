@@ -341,9 +341,7 @@ function range_slider() {
         if (track.ended) {
             console.log("track ended");
             next_song(); // Play the next song
-        } else {
-            console.log("ciagle gramy");   
-        }
+        } 
     }
 
     // // Handle repeat functionality
