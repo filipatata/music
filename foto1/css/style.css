@@ -57,15 +57,18 @@ h1 {
 }
 
 .img-box img {
-  width: 27vw;
-  flex: 1;
-  filter: sepia(60%);
-  cursor: pointer;
-  transition: all 75ms ease-in-out;
+    width: 27vw;
+    border-radius: 9px;
+    flex: 1;
+    border: solid;
+    border-color: white;
+    filter: grayscale(1);
+    cursor: pointer;
+    transition: all 75ms ease-in-out;
 }
 
 .img-box img:hover {
-  filter: sepia(0);
+    filter: hue-rotate(45deg);
 }
 
 .d-none {
