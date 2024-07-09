@@ -337,6 +337,13 @@ function range_slider() {
         var durmins = Math.floor(track.duration / 60);
         dursecs = Math.floor(track.duration - durmins * 60);
         full_duration.innerHTML = dursecs < 10 ? `${durmins} : 0${dursecs}` : `${durmins} : ${dursecs}`;
+
+        if (track.ended) {
+            console.log("track ended");
+            next_song(); // Play the next song
+        } else {
+            console.log("ciagle gramy");   
+        }
     }
 
     // // Handle repeat functionality
