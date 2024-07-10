@@ -1,68 +1,116 @@
 {
-	"songs": [
-		{
-			"id": "1",
-			"name": "MIND 01/07",
-			"path": "music/BOC_1.MP3",
-			"img": "img/kolo_09.gif",
-			"singer": "feat. headpace",
-			"genre": "ambient"
-		},
-		{
-			"id": "2",
-			"name": "MIND 02/07",
-			"path": "music/BOC_2.MP3",
-			"img": "img/pat_06.gif",
-			"singer": "Boards of Canada",
-			"genre": "ambient"
-		},
-		{
-			"id": "3",
-			"name": "MIND 03/07",
-			"path": "music/BOC_1.MP3",
-			"img": "img/pat_07.gif",
-			"singer": "Boargigggnada",
-			"genre": "ambient"
-		},
-		{
-			"id": "4",
-			"name": "MIND 04/07",
-			"path": "music/BOC_2.MP3",
-			"img": "img/pat_36.gif",
-			"singer": "Boards of Canada",
-			"genre": "ambient"
-		},
-				{
-			"id": "5",
-			"name": "MIND 05/07",
-			"path": "music/BOC_1.MP3",
-			"img": "img/kolo_42.gif",
-			"singer": "Boargigggnada",
-			"genre": "ambient"
-		},
-		{
-			"id": "6",
-			"name": "MIND 06/07",
-			"path": "music/BOC_2.MP3",
-			"img": "img/kolo_41.gif",
-			"singer": "Boards of Canada",
-			"genre": "ambient"
-		},
-				{
-			"id": "7",
-			"name": "MIND 07/07",
-			"path": "music/BOC_1.MP3",
-			"img": "img/kolo_39.gif",
-			"singer": "Boargigggnada",
-			"genre": "ambient"
-		},
-		{
-			"id": "8",
-			"name": "LIVE 01/08",
-			"path": "music/BOC_2.MP3",
-			"img": "img/kolo_37.gif",
-			"singer": "Boards of Canada",
-			"genre": "ambient"
-		}
-	]
+  "songs": [
+    {
+      "id": "1",
+      "name": "MIND SESSION 01/14",
+      "path": "music/BOC_1.MP3",
+      "img": "img/kolo_09.gif",
+      "singer": "guided meditation with headspace",
+      "genre": "ambient"
+    },
+    {
+      "id": "2",
+      "name": "MIND SESSION 02/14",
+      "path": "music/BOC_2.MP3",
+      "img": "img/pat_26.gif",
+      "singer": "guided meditation with headspace",
+      "genre": "ambient"
+    },
+    {
+      "id": "3",
+      "name": "MIND SESSION 03/14",
+      "path": "music/BOC_1.MP3",
+      "img": "img/pat_33.gif",
+      "singer": "guided meditation with headspace",
+      "genre": "ambient"
+    },
+    {
+      "id": "4",
+      "name": "MIND SESSION 04/14",
+      "path": "music/BOC_1.MP3",
+      "img": "img/pat_36.gif",
+      "singer": "guided meditation with headspace",
+      "genre": "ambient"
+    },
+    {
+      "id": "5",
+      "name": "MIND SESSION 05/14",
+      "path": "music/BOC_1.MP3",
+      "img": "img/pat_42.gif",
+      "singer": "guided meditation with headspace",
+      "genre": "ambient"
+    },
+    {
+      "id": "6",
+      "name": "MIND SESSION 06/14",
+      "path": "music/BOC_1.MP3",
+      "img": "img/gif02.gif",
+      "singer": "guided meditation with headspace",
+      "genre": "ambient"
+    },
+    {
+      "id": "7",
+      "name": "MIND SESSION 07/14",
+      "path": "music/BOC_2.MP3",
+      "img": "img/gif03.gif",
+      "singer": "guided meditation with headspace",
+      "genre": "ambient"
+    },
+    {
+      "id": "8",
+      "name": "MIND SESSION 08/14",
+      "path": "music/BOC_1.MP3",
+      "img": "img/kolo_12.gif",
+      "singer": "guided meditation with headspace",
+      "genre": "ambient"
+    },
+    {
+      "id": "9",
+      "name": "MIND SESSION 09/14",
+      "path": "music/BOC_2.MP3",
+      "img": "img/geo_42.gif",
+      "singer": "guided meditation with headspace",
+      "genre": "ambient"
+    },
+    {
+      "id": "10",
+      "name": "MIND SESSION 10/14",
+      "path": "music/BOC_1.MP3",
+      "img": "img/pat_53.gif",
+      "singer": "guided meditation with headspace",
+      "genre": "ambient"
+    },
+    {
+      "id": "11",
+      "name": "MIND SESSION 11/14",
+      "path": "music/BOC_2.MP3",
+      "img": "img/gif33.gif",
+      "singer": "guided meditation with headspace",
+      "genre": "ambient"
+    },
+    {
+      "id": "12",
+      "name": "MIND SESSION 12/14",
+      "path": "music/BOC_2.MP3",
+      "img": "img/pat_38.gif",
+      "singer": "guided meditation with headspace",
+      "genre": "ambient"
+    },
+    {
+      "id": "13",
+      "name": "MIND SESSION 13/14",
+      "path": "music/BOC_2.MP3",
+      "img": "img/pat_56.gif",
+      "singer": "guided meditation with headspace",
+      "genre": "ambient"
+    },
+    {
+      "id": "14",
+      "name": "MIND SESSION 14/14",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "guided meditation with headspace",
+      "genre": "ambient"
+    }
+  ]
 }
