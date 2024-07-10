@@ -5,6 +5,7 @@
     font-family: system-ui;
     list-style: none;
     transition: all .3s ease;
+    letter-spacing: -1px;
 }
 
 body {
