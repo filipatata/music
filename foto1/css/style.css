@@ -69,13 +69,12 @@ h1 {
     flex: 1;
     border: solid;
     border-color: #c1a045;
-    filter: grayscale(1);
     cursor: pointer;
     transition: all 75ms ease-in-out;
 }
 
 .img-box img:hover {
-    filter: hue-rotate(45deg);
+    filter: grayscale(1);
 }
 
 .d-none {
