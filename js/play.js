@@ -340,70 +340,6 @@ function range_slider() {
         } 
     }
 
-    // // Handle repeat functionality
-    // repeat.onclick = function () {
-    //     if (select) {
-    //         repeat.innerHTML = `1`;
-    //         repeat.classList.add('selected');
-    //         repeat.classList.remove('repeat');
-    //         repeat.title = "Disable repeat";
-    //         select = false;
-    //         // Ensure shuffle is unselected when repeat is selected
-    //         if (selected) {
-    //             shuffle.click();
-    //         }
-    //     } else {
-    //         repeat.innerHTML = `<i class="bi bi-arrow-clockwise"></i>`;
-    //         repeat.classList.add('repeat');
-    //         repeat.classList.remove('selected');
-    //         select = true;
-    //         repeat.title = "Enable repeat";
-    //     }
-}
-
-// // Handle shuffle functionality
-// shuffle.onclick = function () {
-//     if (selected) {
-//         shuffle.classList.add('selected');
-//         shuffle.classList.remove('shuffle');
-//         selected = false;
-//         shuffle.title = "Disable shuffle";
-//         // Ensure repeat is unselected when shuffle is selected
-//         if (!select) {
-//             repeat.click();
-//         }
-//     } else {
-//         shuffle.classList.remove('selected');
-//         shuffle.classList.add('shuffle');
-//         selected = true;
-//         shuffle.title = "Enable shuffle";
-//     }
-// }
-
-// Function to play a random song when shuffle is selected and track ends
-// function playRandomSong() {
-//     var anotherRandom = Math.floor(Math.random() * max);
-//     index_no = anotherRandom;
-//     out();
-// }
-
-// Function will run when the song is over
-if (track.ended) {
-    // if (shuffle.classList.contains("selected")) {
-    //     playRandomSong();
-    // } else if (repeat.classList.contains("selected")) {
-    //     track.currentTime = 0; // Start playing the same song again
-    //     track.play();
-    // } else {
-    //     next_song(); // Play the next song
-    // }
-
-    console.log("track ended");
-    next_song(); // Play the next song
-}
-
-
-
 function out() {
     track.src = All_song[index_no].path;
     title.innerHTML = All_song[index_no].name;
@@ -454,8 +390,6 @@ function n_ch() {
 
 // light
 function ch() {
-    themebtn.style.color = "white";
-    themebtn.style.backgroundColor = "#143599";
     body.style.backgroundColor = "white";
     m.style.backgroundColor = "#FFFAFA";
     sidenav.style.backgroundColor = "#36260c";
