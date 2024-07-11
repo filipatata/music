@@ -122,7 +122,239 @@
     },
     {
       "id": "16",
+      "name": "LIVE SESSION 02/14",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "theory of evolution with mogran freeman",
+      "genre": "ambient"
+    },
+    {
+      "id": "17",
+      "name": "LIVE SESSION 03/14",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "theory of evolution with mogran freeman",
+      "genre": "ambient"
+    },
+    {
+      "id": "18",
+      "name": "LIVE SESSION 04/14",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "theory of evolution with mogran freeman",
+      "genre": "ambient"
+    },
+    {
+      "id": "19",
+      "name": "LIVE SESSION 05/14",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "theory of evolution with mogran freeman",
+      "genre": "ambient"
+    },
+    {
+      "id": "20",
+      "name": "LIVE SESSION 06/14",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "theory of evolution with mogran freeman",
+      "genre": "ambient"
+    },
+    {
+      "id": "21",
+      "name": "LIVE SESSION 07/14",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "theory of evolution with mogran freeman",
+      "genre": "ambient"
+    },
+    {
+      "id": "22",
+      "name": "LIVE SESSION 08/14",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "theory of evolution with mogran freeman",
+      "genre": "ambient"
+    },
+    {
+      "id": "23",
+      "name": "LIVE SESSION 09/14",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "theory of evolution with mogran freeman",
+      "genre": "ambient"
+    },
+    {
+      "id": "24",
+      "name": "LIVE SESSION 10/14",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "theory of evolution with mogran freeman",
+      "genre": "ambient"
+    },
+    {
+      "id": "25",
+      "name": "LIVE SESSION 11/14",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "theory of evolution with mogran freeman",
+      "genre": "ambient"
+    },
+    {
+      "id": "26",
+      "name": "LIVE SESSION 12/14",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "theory of evolution with mogran freeman",
+      "genre": "ambient"
+    },
+    {
+      "id": "27",
+      "name": "LIVE SESSION 13/14",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "theory of evolution with mogran freeman",
+      "genre": "ambient"
+    },
+    {
+      "id": "28",
+      "name": "LIVE SESSION 14/14",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "theory of evolution with mogran freeman",
+      "genre": "ambient"
+    },
+    {
+      "id": "29",
       "name": "COSMIC SESSION 01/17",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "universe and everything else with sagan, hawking, clarke",
+      "genre": "ambient"
+    },
+    {
+      "id": "30",
+      "name": "COSMIC SESSION 02/17",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "universe and everything else with sagan, hawking, clarke",
+      "genre": "ambient"
+    },
+    {
+      "id": "31",
+      "name": "COSMIC SESSION 03/17",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "universe and everything else with sagan, hawking, clarke",
+      "genre": "ambient"
+    },
+    {
+      "id": "32",
+      "name": "COSMIC SESSION 04/17",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "universe and everything else with sagan, hawking, clarke",
+      "genre": "ambient"
+    },
+    {
+      "id": 33,
+      "name": "COSMIC SESSION 05/17",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "universe and everything else with sagan, hawking, clarke",
+      "genre": "ambient"
+    },
+    {
+      "id": "34",
+      "name": "COSMIC SESSION 06/17",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "universe and everything else with sagan, hawking, clarke",
+      "genre": "ambient"
+    },
+    {
+      "id": "35",
+      "name": "COSMIC SESSION 07/17",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "universe and everything else with sagan, hawking, clarke",
+      "genre": "ambient"
+    },
+    {
+      "id": "36",
+      "name": "COSMIC SESSION 08/17",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "universe and everything else with sagan, hawking, clarke",
+      "genre": "ambient"
+    },
+    {
+      "id": "37",
+      "name": "COSMIC SESSION 09/17",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "universe and everything else with sagan, hawking, clarke",
+      "genre": "ambient"
+    },
+    {
+      "id": "38",
+      "name": "COSMIC SESSION 10/17",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "universe and everything else with sagan, hawking, clarke",
+      "genre": "ambient"
+    },
+    {
+      "id": 39,
+      "name": "COSMIC SESSION 11/17",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "universe and everything else with sagan, hawking, clarke",
+      "genre": "ambient"
+    },
+    {
+      "id": "40",
+      "name": "COSMIC SESSION 12/17",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "universe and everything else with sagan, hawking, clarke",
+      "genre": "ambient"
+    },
+    {
+      "id": "41",
+      "name": "COSMIC SESSION 13/17",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "universe and everything else with sagan, hawking, clarke",
+      "genre": "ambient"
+    },
+    {
+      "id": "42",
+      "name": "COSMIC SESSION 14/17",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "universe and everything else with sagan, hawking, clarke",
+      "genre": "ambient"
+    },
+    {
+      "id": "43",
+      "name": "COSMIC SESSION 15/17",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "universe and everything else with sagan, hawking, clarke",
+      "genre": "ambient"
+    },
+    {
+      "id": "44",
+      "name": "COSMIC SESSION 16/17",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "universe and everything else with sagan, hawking, clarke",
+      "genre": "ambient"
+    },
+    {
+      "id": "45",
+      "name": "COSMIC SESSION 17/17",
       "path": "music/BOC_2.MP3",
       "img": "img/kolo_39.gif",
       "singer": "universe and everything else with sagan, hawking, clarke",
