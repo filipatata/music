@@ -621,7 +621,7 @@ input[type=range]::-moz-range-progress {
     }
 
 .play-title {
-        padding: 10px 30px;
+        padding: 10px 5px;
     }
 
 .main-list {
