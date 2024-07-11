@@ -498,7 +498,7 @@ input[type=range]::-moz-range-progress {
 
 .play-title {
     display: flex;
-    gap: 20px;
+    gap: 5px;
     font-size: 1.3rem;
     padding: 30px;
 }
