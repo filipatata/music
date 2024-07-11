@@ -23,6 +23,13 @@ body {
   align-items: center;
 }
 
+.person img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  
+}
+
 h1 {
 //  font-family: 'The Nautigal', cursive;
 //  font-size: 50px;
