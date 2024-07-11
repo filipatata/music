@@ -443,47 +443,8 @@ themebtn.onclick = function () {
 
 // dark
 function n_ch() {
-    body.style.backgroundColor = "black";
-    m.style.backgroundColor = "#414A4C";
-    sidenav.style.backgroundColor = "#192033"
-    playlist.style.color = "white";
-    active_tab.style.backgroundColor = "#273251";
-    music_controls.style.backgroundColor = "#181c2d";
-    music_player.style.background = "#080f24";
-    // shuffle.style.backgroundColor = "#273251";
-    // repeat.style.backgroundColor = "#273251";
-    song_slate.style.color = "#fff";
-    play.style.backgroundColor = "#393d4d";
-
-
-    bi_btn.forEach(btn => {
-        btn.style.backgroundColor = "#1d2742"
-    });
-
-    list_hover.forEach(list => {
-        list.addEventListener("mouseover", () => {
-            list.style.backgroundColor = "#273251";
-        });
-    });
-    list_hover.forEach(list => {
-        list.addEventListener("mouseout", () => {
-            if (!list.classList.contains("active")) {
-                list.style.backgroundColor = "transparent";
-            }
-        });
-    })
-
-    playlist_hover.forEach(list => {
-        list.addEventListener("mouseover", () => {
-            list.style.backgroundColor = "#273251";
-        });
-    });
-    playlist_hover.forEach(list => {
-        list.addEventListener("mouseout", () => {
-            list.style.backgroundColor = "transparent";
-        });
-    });
-
+    
+    track_image.filter: hue-rotate(45deg);
 }
 
 // light
