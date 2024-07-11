@@ -252,11 +252,11 @@ body {
 }
 
 #track_image {
-    width: 100%;
-    height: 100%;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     border: solid;
-    border-radius: 250px;
+    border-radius: 50%;
     object-position: top;
 }
 
