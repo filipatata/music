@@ -444,7 +444,10 @@ themebtn.onclick = function () {
 // dark
 function n_ch() {
      // style.filter = `hue-rotate(${i}deg)`;
-   track_image.style.filter = `hue-rotate(45deg)`;
+
+   var anotherRandom = Math.floor(Math.random() * 360);
+   index_no = anotherRandom;
+   track_image.style.filter = `hue-rotate(${index_no}deg)`;
 }
 
 // light
