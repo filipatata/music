@@ -111,6 +111,22 @@
       "img": "img/kolo_39.gif",
       "singer": "guided meditation with headspace",
       "genre": "ambient"
+    },
+    {
+      "id": "15",
+      "name": "LIVE SESSION 01/14",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "theory of evolution with mogran freeman",
+      "genre": "ambient"
+    },
+    {
+      "id": "16",
+      "name": "COSMIC SESSION 01/17",
+      "path": "music/BOC_2.MP3",
+      "img": "img/kolo_39.gif",
+      "singer": "universe everything else with c.sagan, s.hawking, a.c.clarke",
+      "genre": "ambient"
     }
   ]
 }
