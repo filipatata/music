@@ -413,6 +413,7 @@ function out() {
     timer = setInterval(range_slider, 1000);
     total.innerHTML = All_song.length;
     present.innerHTML = index_no + 1;
+    track_image.style.filter = `hue-rotate(0deg)`;
     playsong();
 }
 
