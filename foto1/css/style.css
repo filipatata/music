@@ -23,7 +23,7 @@ body {
   align-items: center;
 }
 
-.person img {
+.headline-section img {
   width: 45px;
   height: 45px;
   border-radius: 50%;
@@ -33,9 +33,6 @@ body {
 h1 {
 //  font-family: 'The Nautigal', cursive;
 //  font-size: 50px;
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
 }
 
 .btn {
