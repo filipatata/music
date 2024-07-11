@@ -24,8 +24,11 @@ body {
 }
 
 h1 {
-  font-family: 'The Nautigal', cursive;
-  font-size: 50px;
+//  font-family: 'The Nautigal', cursive;
+//  font-size: 50px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
 }
 
 .btn {
