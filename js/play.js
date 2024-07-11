@@ -22,7 +22,7 @@ let previous = document.querySelector('#pre'),
     play_open = document.querySelector(".play-open"),
     playlist = document.querySelector(".playlist");
 
-let timer, link, All_song, max, gen, index_no;
+let timer, link, All_song, max, gen, col ,index_no;
 
 // for mobile sidenav
 const iconElement = menu_btn.querySelector('i');
@@ -219,6 +219,7 @@ function playsong() {
     first_click = false;
     play.innerHTML = '<i class="fa fa-pause" aria-hidden="true"></i>';
     play.title = "Pause";
+    track_image.style.filter = `hue-rotate(0deg)`;
 }
 
 // pause song
@@ -447,8 +448,8 @@ function n_ch() {
      // style.filter = `hue-rotate(${i}deg)`;
 
    var anotherRandom = Math.floor(Math.random() * 360);
-   index_no = anotherRandom;
-   track_image.style.filter = `hue-rotate(${index_no}deg)`;
+   col = anotherRandom;
+   track_image.style.filter = `hue-rotate(${col}deg)`;
 }
 
 // light
