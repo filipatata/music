@@ -443,8 +443,8 @@ themebtn.onclick = function () {
 
 // dark
 function n_ch() {
-   
-  //  track_image.filter: hue-rotate(45deg);
+     // style.filter = `hue-rotate(${i}deg)`;
+   track_image.filter = hue-rotate(45deg);
 }
 
 // light
