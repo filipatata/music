@@ -332,7 +332,7 @@ function n_ch() {
    col = Math.floor(Math.random() * 45);
    track_image.src = All_song[col].img; 
    col = Math.floor(Math.random() * 330);    
-   track_image.style.transform = "rotate(${col}deg)";
+   track_image.style.transform = `rotate(${col}deg)`;
 }
 
 function ch() {
