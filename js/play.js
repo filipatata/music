@@ -329,6 +329,8 @@ function n_ch() {
    var anotherRandom = Math.floor(Math.random() * 360);
    col = anotherRandom;
    track_image.style.filter = `hue-rotate(${col}deg)`;
+   col = Math.floor(Math.random() * 45);
+   track_image.src = All_song[col].img;  
 }
 
 function ch() {
