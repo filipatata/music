@@ -324,15 +324,6 @@ const active_tab = document.querySelector(".active"),
     playlist_hover = document.querySelectorAll(".track_list li");
 
 ch();
-themebtn.onclick = function () {
-    if (fc) {
-        ch();
-        fc = false;
-    } else {
-        n_ch();
-        fc = true;
-    }
-}
 
 // dark
 function n_ch() {
