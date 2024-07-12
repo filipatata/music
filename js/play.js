@@ -323,7 +323,7 @@ const active_tab = document.querySelector(".active"),
     list_hover = document.querySelectorAll(".sub-nav-list"),
     playlist_hover = document.querySelectorAll(".track_list li");
 
-ch();
+// ch();
 
 function n_ch() {
    var anotherRandom = Math.floor(Math.random() * 360);
