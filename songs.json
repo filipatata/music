@@ -3,7 +3,7 @@
     {
       "id": "1",
       "name": "MIND SESSION 01/14",
-      "path": "music/BOC_1.MP3",
+      "path": "music/MIND01.mp3",
       "img": "img/kolo_09.gif",
       "singer": "guided meditation with headspace",
       "genre": "ambient"
@@ -11,7 +11,7 @@
     {
       "id": "2",
       "name": "MIND SESSION 02/14",
-      "path": "music/BOC_2.MP3",
+      "path": "music/MIND02.mp3",
       "img": "img/pat_26.gif",
       "singer": "guided meditation with headspace",
       "genre": "ambient"
@@ -19,7 +19,7 @@
     {
       "id": "3",
       "name": "MIND SESSION 03/14",
-      "path": "music/BOC_1.MP3",
+      "path": "music/MIND03.mp3",
       "img": "img/pat_52.gif",
       "singer": "guided meditation with headspace",
       "genre": "ambient"
@@ -27,7 +27,7 @@
     {
       "id": "4",
       "name": "MIND SESSION 04/14",
-      "path": "music/BOC_1.MP3",
+      "path": "music/MIND04.mp3",
       "img": "img/pat_36.gif",
       "singer": "guided meditation with headspace",
       "genre": "ambient"
@@ -35,7 +35,7 @@
     {
       "id": "5",
       "name": "MIND SESSION 05/14",
-      "path": "music/BOC_1.MP3",
+      "path": "music/MIND05.mp3",
       "img": "img/pat_42.gif",
       "singer": "guided meditation with headspace",
       "genre": "ambient"
@@ -43,7 +43,7 @@
     {
       "id": "6",
       "name": "MIND SESSION 06/14",
-      "path": "music/BOC_1.MP3",
+      "path": "music/MIND06.mp3",
       "img": "img/pat_56.gif",
       "singer": "guided meditation with headspace",
       "genre": "ambient"
@@ -51,7 +51,7 @@
     {
       "id": "7",
       "name": "MIND SESSION 07/14",
-      "path": "music/BOC_2.MP3",
+      "path": "music/MIND07.mp3",
       "img": "img/gif03.gif",
       "singer": "guided meditation with headspace",
       "genre": "ambient"
@@ -59,7 +59,7 @@
     {
       "id": "8",
       "name": "MIND SESSION 08/14",
-      "path": "music/BOC_1.MP3",
+      "path": "music/MIND08.mp3",
       "img": "img/kolo_12.gif",
       "singer": "guided meditation with headspace",
       "genre": "ambient"
@@ -67,7 +67,7 @@
     {
       "id": "9",
       "name": "MIND SESSION 09/14",
-      "path": "music/BOC_2.MP3",
+      "path": "music/MIND09.mp3",
       "img": "img/geo_42.gif",
       "singer": "guided meditation with headspace",
       "genre": "ambient"
@@ -75,7 +75,7 @@
     {
       "id": "10",
       "name": "MIND SESSION 10/14",
-      "path": "music/BOC_1.MP3",
+      "path": "music/MIND10.mp3",
       "img": "img/pat_53.gif",
       "singer": "guided meditation with headspace",
       "genre": "ambient"
@@ -83,7 +83,7 @@
     {
       "id": "11",
       "name": "MIND SESSION 11/14",
-      "path": "music/BOC_2.MP3",
+      "path": "music/MIND11.mp3",
       "img": "img/gif33.gif",
       "singer": "guided meditation with headspace",
       "genre": "ambient"
@@ -91,7 +91,7 @@
     {
       "id": "12",
       "name": "MIND SESSION 12/14",
-      "path": "music/BOC_2.MP3",
+      "path": "music/MIND12.mp3",
       "img": "img/pat_38.gif",
       "singer": "guided meditation with headspace",
       "genre": "ambient"
@@ -99,7 +99,7 @@
     {
       "id": "13",
       "name": "MIND SESSION 13/14",
-      "path": "music/BOC_2.MP3",
+      "path": "music/MIND13.mp3",
       "img": "img/gif09.gif",
       "singer": "guided meditation with headspace",
       "genre": "ambient"
@@ -107,7 +107,7 @@
     {
       "id": "14",
       "name": "MIND SESSION 14/14",
-      "path": "music/BOC_2.MP3",
+      "path": "music/MIND14.mp3",
       "img": "img/kolo_39.gif",
       "singer": "guided meditation with headspace",
       "genre": "ambient"
@@ -115,7 +115,7 @@
     {
       "id": "15",
       "name": "LIVE SESSION 01/14",
-      "path": "music/BOC_2.MP3",
+      "path": "music/MIND14.mp3",
       "img": "img/gif36.gif",
       "singer": "theory of evolution with mogran freeman",
       "genre": "ambient"
@@ -227,7 +227,7 @@
     {
       "id": "29",
       "name": "COSMIC SESSION 01/17",
-      "path": "music/BOC_2.MP3",
+      "path": "music/SPACE01.mp3",
       "img": "img/bw24.gif",
       "singer": "universe and everything else with sagan, hawking, clarke",
       "genre": "ambient"
@@ -235,7 +235,7 @@
     {
       "id": "30",
       "name": "COSMIC SESSION 02/17",
-      "path": "music/BOC_2.MP3",
+      "path": "music/SPACE02.mp3",
       "img": "img/bw17.gif",
       "singer": "universe and everything else with sagan, hawking, clarke",
       "genre": "ambient"
@@ -243,7 +243,7 @@
     {
       "id": "31",
       "name": "COSMIC SESSION 03/17",
-      "path": "music/BOC_2.MP3",
+      "path": "music/SPACE03.mp3",
       "img": "img/bw01.gif",
       "singer": "universe and everything else with sagan, hawking, clarke",
       "genre": "ambient"
@@ -251,7 +251,7 @@
     {
       "id": "32",
       "name": "COSMIC SESSION 04/17",
-      "path": "music/BOC_2.MP3",
+      "path": "music/SPACE04.mp3",
       "img": "img/bw13.gif",
       "singer": "universe and everything else with sagan, hawking, clarke",
       "genre": "ambient"
@@ -259,7 +259,7 @@
     {
       "id": 33,
       "name": "COSMIC SESSION 05/17",
-      "path": "music/BOC_2.MP3",
+      "path": "music/SPACE05.mp3",
       "img": "img/bw11.gif",
       "singer": "universe and everything else with sagan, hawking, clarke",
       "genre": "ambient"
@@ -267,7 +267,7 @@
     {
       "id": "34",
       "name": "COSMIC SESSION 06/17",
-      "path": "music/BOC_2.MP3",
+      "path": "music/SPACE06.mp3",
       "img": "img/bw12.gif",
       "singer": "universe and everything else with sagan, hawking, clarke",
       "genre": "ambient"
@@ -275,7 +275,7 @@
     {
       "id": "35",
       "name": "COSMIC SESSION 07/17",
-      "path": "music/BOC_2.MP3",
+      "path": "music/SPACE07.mp3",
       "img": "img/bw23.gif",
       "singer": "universe and everything else with sagan, hawking, clarke",
       "genre": "ambient"
@@ -283,7 +283,7 @@
     {
       "id": "36",
       "name": "COSMIC SESSION 08/17",
-      "path": "music/BOC_2.MP3",
+      "path": "music/SPACE08.mp3",
       "img": "img/bw02.gif",
       "singer": "universe and everything else with sagan, hawking, clarke",
       "genre": "ambient"
@@ -291,7 +291,7 @@
     {
       "id": "37",
       "name": "COSMIC SESSION 09/17",
-      "path": "music/BOC_2.MP3",
+      "path": "music/SPACE09.mp3",
       "img": "img/bw21.gif",
       "singer": "universe and everything else with sagan, hawking, clarke",
       "genre": "ambient"
@@ -299,7 +299,7 @@
     {
       "id": "38",
       "name": "COSMIC SESSION 10/17",
-      "path": "music/BOC_2.MP3",
+      "path": "music/SPACE10.mp3",
       "img": "img/bw27.gif",
       "singer": "universe and everything else with sagan, hawking, clarke",
       "genre": "ambient"
@@ -307,7 +307,7 @@
     {
       "id": 39,
       "name": "COSMIC SESSION 11/17",
-      "path": "music/BOC_2.MP3",
+      "path": "music/SPACE11.mp3",
       "img": "img/bw09.gif",
       "singer": "universe and everything else with sagan, hawking, clarke",
       "genre": "ambient"
@@ -315,7 +315,7 @@
     {
       "id": "40",
       "name": "COSMIC SESSION 12/17",
-      "path": "music/BOC_2.MP3",
+      "path": "music/SPACE12.mp3",
       "img": "img/bw20.gif",
       "singer": "universe and everything else with sagan, hawking, clarke",
       "genre": "ambient"
@@ -323,7 +323,7 @@
     {
       "id": "41",
       "name": "COSMIC SESSION 13/17",
-      "path": "music/BOC_2.MP3",
+      "path": "music/SPACE13.mp3",
       "img": "img/bw15.gif",
       "singer": "universe and everything else with sagan, hawking, clarke",
       "genre": "ambient"
@@ -331,7 +331,7 @@
     {
       "id": "42",
       "name": "COSMIC SESSION 14/17",
-      "path": "music/BOC_2.MP3",
+      "path": "music/SPACE14.mp3",
       "img": "img/bw04.gif",
       "singer": "universe and everything else with sagan, hawking, clarke",
       "genre": "ambient"
@@ -339,7 +339,7 @@
     {
       "id": "43",
       "name": "COSMIC SESSION 15/17",
-      "path": "music/BOC_2.MP3",
+      "path": "music/SPACE15.mp3",
       "img": "img/bw10.gif",
       "singer": "universe and everything else with sagan, hawking, clarke",
       "genre": "ambient"
@@ -347,7 +347,7 @@
     {
       "id": "44",
       "name": "COSMIC SESSION 16/17",
-      "path": "music/BOC_2.MP3",
+      "path": "music/SPACE16.mp3",
       "img": "img/bw26.gif",
       "singer": "universe and everything else with sagan, hawking, clarke",
       "genre": "ambient"
@@ -355,7 +355,7 @@
     {
       "id": "45",
       "name": "COSMIC SESSION 17/17",
-      "path": "music/BOC_2.MP3",
+      "path": "music/SPACE17.mp3",
       "img": "img/bw19.gif",
       "singer": "universe and everything else with sagan, hawking, clarke",
       "genre": "ambient"
