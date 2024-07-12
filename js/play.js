@@ -220,6 +220,7 @@ function playsong() {
     play.innerHTML = '<i class="fa fa-pause" aria-hidden="true"></i>';
     play.title = "Pause";
     track_image.style.filter = `hue-rotate(0deg)`;
+    track_image.style.transform = `rotate(0deg)`;
 }
 
 // pause song
