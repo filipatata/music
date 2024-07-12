@@ -129,7 +129,7 @@ body {
 
 .songs-count {
     font-size: 0.9rem;
-    padding-left: 25px;
+    padding-left: 0px;
 }
 
 
@@ -378,7 +378,7 @@ body {
 .track .time {
     display: flex;
     justify-content: space-between;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
 }
 
 input[type="range"] {
