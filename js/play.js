@@ -330,8 +330,9 @@ function n_ch() {
    col = anotherRandom;
    track_image.style.filter = `hue-rotate(${col}deg)`;
    col = Math.floor(Math.random() * 45);
-//   track_image.src = All_song[col].img;  
-   track_image.style.transform = "rotate(45deg)";
+   track_image.src = All_song[col].img; 
+   col = Math.floor(Math.random() * 330);    
+   track_image.style.transform = "rotate(${col}deg)";
 }
 
 function ch() {
