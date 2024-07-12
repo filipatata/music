@@ -99,7 +99,7 @@ body {
 }
 
 .sub-nav-list {
-    padding: 7px 6px 7px 38px;
+    padding: 7px 6px 7px 15px;
     margin: 5px 0;
     border-radius: 20px;
     cursor: pointer;
@@ -258,6 +258,7 @@ body {
     border: solid;
     border-radius: 50%;
     object-position: top;
+    cursor: pointer;
 }
 
 .image {
