@@ -325,16 +325,12 @@ const active_tab = document.querySelector(".active"),
 
 ch();
 
-// dark
 function n_ch() {
-     // style.filter = `hue-rotate(${i}deg)`;
-
    var anotherRandom = Math.floor(Math.random() * 360);
    col = anotherRandom;
    track_image.style.filter = `hue-rotate(${col}deg)`;
 }
 
-// light
 function ch() {
     body.style.backgroundColor = "white";
     m.style.backgroundColor = "#FFFAFA";
