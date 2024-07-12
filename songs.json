@@ -115,7 +115,7 @@
     {
       "id": "15",
       "name": "LIVE SESSION 01/14",
-      "path": "music/MIND14.mp3",
+      "path": "music/LIVE01.mp3",
       "img": "img/gif36.gif",
       "singer": "theory of evolution with mogran freeman",
       "genre": "ambient"
@@ -123,7 +123,7 @@
     {
       "id": "16",
       "name": "LIVE SESSION 02/14",
-      "path": "music/BOC_2.MP3",
+      "path": "music/LIVE02.mp3",
       "img": "img/pat_37.gif",
       "singer": "theory of evolution with mogran freeman",
       "genre": "ambient"
@@ -131,7 +131,7 @@
     {
       "id": "17",
       "name": "LIVE SESSION 03/14",
-      "path": "music/BOC_2.MP3",
+      "path": "music/LIVE03.mp3",
       "img": "img/geo_36.gif",
       "singer": "theory of evolution with mogran freeman",
       "genre": "ambient"
@@ -139,7 +139,7 @@
     {
       "id": "18",
       "name": "LIVE SESSION 04/14",
-      "path": "music/BOC_2.MP3",
+      "path": "music/LIVE04.mp3",
       "img": "img/geo_44.gif",
       "singer": "theory of evolution with mogran freeman",
       "genre": "ambient"
@@ -147,7 +147,7 @@
     {
       "id": "19",
       "name": "LIVE SESSION 05/14",
-      "path": "music/BOC_2.MP3",
+      "path": "music/LIVE05.mp3",
       "img": "img/pat_04.gif",
       "singer": "theory of evolution with mogran freeman",
       "genre": "ambient"
@@ -155,7 +155,7 @@
     {
       "id": "20",
       "name": "LIVE SESSION 06/14",
-      "path": "music/BOC_2.MP3",
+      "path": "music/LIVE06.mp3",
       "img": "img/kolo_42.gif",
       "singer": "theory of evolution with mogran freeman",
       "genre": "ambient"
@@ -163,7 +163,7 @@
     {
       "id": "21",
       "name": "LIVE SESSION 07/14",
-      "path": "music/BOC_2.MP3",
+      "path": "music/LIVE07.mp3",
       "img": "img/kolo_06.gif",
       "singer": "theory of evolution with mogran freeman",
       "genre": "ambient"
@@ -171,7 +171,7 @@
     {
       "id": "22",
       "name": "LIVE SESSION 08/14",
-      "path": "music/BOC_2.MP3",
+      "path": "music/LIVE08.mp3",
       "img": "img/gif04.gif",
       "singer": "theory of evolution with mogran freeman",
       "genre": "ambient"
@@ -179,7 +179,7 @@
     {
       "id": "23",
       "name": "LIVE SESSION 09/14",
-      "path": "music/BOC_2.MP3",
+      "path": "music/LIVE09.mp3",
       "img": "img/gif11.gif",
       "singer": "theory of evolution with mogran freeman",
       "genre": "ambient"
@@ -187,7 +187,7 @@
     {
       "id": "24",
       "name": "LIVE SESSION 10/14",
-      "path": "music/BOC_2.MP3",
+      "path": "music/LIVE10.mp3",
       "img": "img/pat_02.gif",
       "singer": "theory of evolution with mogran freeman",
       "genre": "ambient"
@@ -195,7 +195,7 @@
     {
       "id": "25",
       "name": "LIVE SESSION 11/14",
-      "path": "music/BOC_2.MP3",
+      "path": "music/LIVE11.mp3",
       "img": "img/pat_22.gif",
       "singer": "theory of evolution with mogran freeman",
       "genre": "ambient"
@@ -203,7 +203,7 @@
     {
       "id": "26",
       "name": "LIVE SESSION 12/14",
-      "path": "music/BOC_2.MP3",
+      "path": "music/LIVE12.mp3",
       "img": "img/kolo_28.gif",
       "singer": "theory of evolution with mogran freeman",
       "genre": "ambient"
@@ -211,7 +211,7 @@
     {
       "id": "27",
       "name": "LIVE SESSION 13/14",
-      "path": "music/BOC_2.MP3",
+      "path": "music/LIVE13.mp3",
       "img": "img/pat_30.gif",
       "singer": "theory of evolution with mogran freeman",
       "genre": "ambient"
@@ -219,7 +219,7 @@
     {
       "id": "28",
       "name": "LIVE SESSION 14/14",
-      "path": "music/BOC_2.MP3",
+      "path": "music/LIVE14.mp3",
       "img": "img/kolo_39.gif",
       "singer": "theory of evolution with mogran freeman",
       "genre": "ambient"
