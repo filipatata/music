@@ -253,11 +253,6 @@ function previous_song() {
     }
 }
 
-if (track.ended) {
-    console.log("track ended");
-    next_song(); // Play the next song
-}
-
 var curmins, cursecs;
 
 // change slider position
@@ -277,47 +272,6 @@ function changeDur() {
         passed_duration.innerHTML = `${curmins} : ${cursecs}`;
     }
 }
-
-
-// // for repeat
-// var select  = true;
-// // repeat.innerHTML = `<i class="bi bi-arrow-clockwise"></i>`;
-
-// // for shuffle
-// var selected = true;
-
-// shuffle.onclick = function () {
-//     if (selected) {
-//         shuffle.classList.add('selected');
-//         shuffle.classList.remove('shuffle');
-//         selected = false;
-//         shuffle.title = "Disable shuffle";
-//     } else {
-//         shuffle.classList.remove('selected');
-//         shuffle.classList.add('shuffle');
-//         selected = true;
-//         shuffle.title = "Enable shuffle";
-//     }
-// }
-
-// repeat.onclick = function () {
-//     if (select) {
-//         repeat.innerHTML = `1`;
-//         repeat.classList.add('selected');
-//         repeat.classList.remove('repeat');
-//         repeat.title = "Disable repeat";
-//         select = false;
-//     } else {
-//         repeat.innerHTML = `<i class="bi bi-arrow-clockwise"></i>`;
-//         repeat.classList.add('repeat');
-//         repeat.classList.remove('selected');
-//         select = true;
-//         repeat.title = "Enable repeat";
-//     }
-// }
-
-
-
 
 function range_slider() {
     let position = 0;
@@ -339,7 +293,8 @@ function range_slider() {
             next_song(); // Play the next song
         } 
     }
-
+}
+    
 function out() {
     track.src = All_song[index_no].path;
     title.innerHTML = All_song[index_no].name;
