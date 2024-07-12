@@ -344,7 +344,7 @@ function ch() {
     // repeat.style.backgroundColor = "#0876ec";
     song_slate.style.color = "black";
     play.style.backgroundColor = "#2d349f";
-
+    console.log("formatowanie uruchomione");
 
     bi_btn.forEach(btn => {
         btn.style.backgroundColor = "#143599"
