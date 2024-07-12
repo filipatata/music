@@ -22,7 +22,7 @@ let previous = document.querySelector('#pre'),
     play_open = document.querySelector(".play-open"),
     playlist = document.querySelector(".playlist");
 
-let timer, link, All_song, max, gen, col ,index_no;
+let timer, link, All_song, max, gen, col, col2, col3 ,index_no;
 
 // for mobile sidenav
 const iconElement = menu_btn.querySelector('i');
@@ -328,12 +328,15 @@ const active_tab = document.querySelector(".active"),
 
 function n_ch() {
    var anotherRandom = Math.floor(Math.random() * 360);
+    
+   col1 = Math.floor(Math.random() * 30);
+   track_image.src = All_song[col1].img; 
+
    col = anotherRandom;
    track_image.style.filter = `hue-rotate(${col}deg)`;
-   col = Math.floor(Math.random() * 30);
-   track_image.src = All_song[col].img; 
-   col = Math.floor(Math.random() * 300);    
-   track_image.style.transform = `rotate(90deg)`;
+
+   col2 = Math.floor(Math.random() * 360);    
+   track_image.style.transform = `rotate(${col2}deg)`;
 }
 
 function ch() {
