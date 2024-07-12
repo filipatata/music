@@ -92,7 +92,7 @@ h1 {
 }
 
 .bigScreen img {
-  height: 100vh;
+  height: 80vh;
   object-fit: contain;
   margin: auto;
   border: 10px solid white;
