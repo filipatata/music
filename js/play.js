@@ -306,6 +306,7 @@ function out() {
     total.innerHTML = All_song.length;
     present.innerHTML = index_no + 1;
     track_image.style.filter = `hue-rotate(0deg)`;
+    track_image.style.transform = `rotate(0deg)`;
     playsong();
 }
 
