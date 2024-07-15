@@ -291,7 +291,7 @@ function range_slider() {
         cursecs = Math.floor(track.currentTime - curmins * 60);
         passed_duration.innerHTML = cursecs < 10 ? `${curmins} : 0${cursecs}` : `${curmins} : ${cursecs}`;
 
-        var ang = Math.floor(cursecs * (curmins + 1));
+        var ang = Math.floor(cursecs + (curmins * 60));
         track_image.style.transform = `rotate(${ang}deg)`;        
         
         var durmins = Math.floor(track.duration / 60);
