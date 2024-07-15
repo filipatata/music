@@ -223,10 +223,10 @@ function playsong() {
 
     track_image.style.filter = `hue-rotate(0deg)`;
     
-    track_image.style.transition = `all 3s ease-out`;
+    track_image.style.transition = `transform 3s ease-out`;
     col2 = Math.floor(Math.random() * 360);    
     track_image.style.transform = `rotate(${col2}deg)`;
-    track_image.style.transition = `all 1s linear`;
+    track_image.style.transition = `transform 1s linear`;
 }
 
 // pause song
@@ -292,7 +292,7 @@ function range_slider() {
         passed_duration.innerHTML = cursecs < 10 ? `${curmins} : 0${cursecs}` : `${curmins} : ${cursecs}`;
 
         var ang = Math.floor(cursecs * (curmins + 1));
-        track_image.style.transform = `rotate(${cursecs}deg)`;        
+        track_image.style.transform = `rotate(${ang}deg)`;        
         
         var durmins = Math.floor(track.duration / 60);
         dursecs = Math.floor(track.duration - durmins * 60);
