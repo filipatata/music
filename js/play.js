@@ -219,8 +219,14 @@ function playsong() {
     first_click = false;
     play.innerHTML = '<i class="fa fa-pause" aria-hidden="true"></i>';
     play.title = "Pause";
+
+
     track_image.style.filter = `hue-rotate(0deg)`;
-    track_image.style.transform = `rotate(0deg)`;
+    
+    track_image.style.transition = `all 3s ease-out`;
+    col2 = Math.floor(Math.random() * 360);    
+    track_image.style.transform = `rotate(${col2}deg)`;
+    track_image.style.transition = `all 1s linear`;
 }
 
 // pause song
@@ -285,6 +291,7 @@ function range_slider() {
         cursecs = Math.floor(track.currentTime - curmins * 60);
         passed_duration.innerHTML = cursecs < 10 ? `${curmins} : 0${cursecs}` : `${curmins} : ${cursecs}`;
 
+        var ang = Math.floor(cursecs * (curmins + 1));
         track_image.style.transform = `rotate(${cursecs}deg)`;        
         
         var durmins = Math.floor(track.duration / 60);
@@ -334,7 +341,7 @@ function n_ch() {
     
    col1 = Math.floor(Math.random() * 30);
    track_image.src = All_song[col1].img; 
-
+    
    col = anotherRandom;
    track_image.style.filter = `hue-rotate(${col}deg)`;
 
