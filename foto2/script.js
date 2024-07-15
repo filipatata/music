@@ -4,8 +4,11 @@ let images = [
   './img/img9.jpg', './img/img10.jpg', './img/img11.jpg', './img/img12.jpg',
   './img/img13.jpg', './img/img14.jpg', './img/img15.jpg', './img/img16.jpg',
   './img/img17.jpg', './img/img18.jpg', './img/img19.jpg', './img/img20.jpg',
-  './img/img21.jpg'
+  './img/img21.jpg' , './img/img22.jpg' , './img/img23.jpg' , './img/img24.jpg' , 
+  './img/img25.jpg' , './img/img26.jpg' , './img/img27.jpg' , './img/img28.jpg' , 
+  './img/img29.jpg' , './img/img30.jpg' , './img/img31.jpg'
 ];
+
 let header = document.getElementById('header');
 let imgContainer = document.getElementById('image-container');
 let bigScreen = document.getElementById('bigScreen');
