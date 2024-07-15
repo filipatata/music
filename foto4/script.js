@@ -4,7 +4,14 @@ let images = [
   './img/img9.jpg', './img/img10.jpg', './img/img11.jpg', './img/img12.jpg',
   './img/img13.jpg', './img/img14.jpg', './img/img15.jpg', './img/img16.jpg',
   './img/img17.jpg', './img/img18.jpg', './img/img19.jpg', './img/img20.jpg',
-  './img/img21.jpg'
+  './img/img21.jpg', './img/img22.jpg', './img/img23.jpg', './img/img24.jpg', 
+  './img/img25.jpg', './img/img26.jpg', './img/img27.jpg', './img/img28.jpg', 
+  './img/img29.jpg', './img/img30.jpg', './img/img31.jpg', './img/img32.jpg', 
+  './img/img33.jpg', './img/img34.jpg', './img/img35.jpg', './img/img36.jpg', 
+  './img/img37.jpg', './img/img38.jpg', './img/img39.jpg', './img/img40.jpg', 
+  './img/img41.jpg', './img/img42.jpg', './img/img43.jpg', './img/img44.jpg', 
+  './img/img45.jpg', './img/img46.jpg', './img/img47.jpg', './img/img48.jpg', 
+  './img/img49.jpg', './img/img50.jpg', './img/img51.jpg', './img/img52.jpg' 
 ];
 let header = document.getElementById('header');
 let imgContainer = document.getElementById('image-container');
