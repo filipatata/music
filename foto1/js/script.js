@@ -4,7 +4,27 @@ let images = [
   './img/img9.jpg', './img/img10.jpg', './img/img11.jpg', './img/img12.jpg',
   './img/img13.jpg', './img/img14.jpg', './img/img15.jpg', './img/img16.jpg',
   './img/img17.jpg', './img/img18.jpg', './img/img19.jpg', './img/img20.jpg',
-  './img/img21.jpg'
+  './img/img21.jpg', './img/img22.jpg', './img/img23.jpg', './img/img24.jpg', 
+  './img/img25.jpg', './img/img26.jpg', './img/img27.jpg', './img/img28.jpg', 
+  './img/img29.jpg', './img/img30.jpg', './img/img31.jpg', './img/img32.jpg', 
+  './img/img33.jpg', './img/img34.jpg', './img/img35.jpg', './img/img36.jpg', 
+  './img/img37.jpg', './img/img38.jpg', './img/img39.jpg', './img/img40.jpg', 
+  './img/img41.jpg', './img/img42.jpg', './img/img43.jpg', './img/img44.jpg', 
+  './img/img45.jpg', './img/img46.jpg', './img/img47.jpg', './img/img48.jpg', 
+  './img/img49.jpg', './img/img50.jpg', './img/img51.jpg', './img/img52.jpg', 
+  './img/img53.jpg', './img/img54.jpg', './img/img55.jpg', './img/img56.jpg', 
+  './img/img57.jpg', './img/img58.jpg', './img/img59.jpg', './img/img60.jpg', 
+  './img/img61.jpg', './img/img62.jpg', './img/img63.jpg', './img/img64.jpg', 
+  './img/img65.jpg', './img/img66.jpg', './img/img67.jpg', './img/img68.jpg', 
+  './img/img69.jpg', './img/img70.jpg', './img/img71.jpg', './img/img72.jpg', 
+  './img/img73.jpg', './img/img74.jpg', './img/img75.jpg', './img/img76.jpg', 
+  './img/img77.jpg', './img/img78.jpg', './img/img79.jpg', './img/img80.jpg', 
+  './img/img81.jpg', './img/img82.jpg', './img/img83.jpg', './img/img84.jpg', 
+  './img/img85.jpg', './img/img86.jpg', './img/img87.jpg', './img/img88.jpg', 
+  './img/img89.jpg', './img/img90.jpg', './img/img91.jpg', './img/img92.jpg', 
+  './img/img93.jpg', './img/img94.jpg', './img/img95.jpg', './img/img96.jpg', 
+  './img/img97.jpg', './img/img98.jpg', './img/img99.jpg', './img/img100.jpg', 
+  './img/img101.jpg', './img/img102.jpg', './img/img103.jpg', './img/img104.jpg'
 ];
 let header = document.getElementById('header');
 let imgContainer = document.getElementById('image-container');
