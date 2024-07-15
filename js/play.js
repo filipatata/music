@@ -345,8 +345,8 @@ function n_ch() {
    col = anotherRandom;
    track_image.style.filter = `hue-rotate(${col}deg)`;
 
-   col2 = Math.floor(Math.random() * 360);    
-   track_image.style.transform = `rotate(${col2}deg)`;
+//   col2 = Math.floor(Math.random() * 360);    
+//   track_image.style.transform = `rotate(${col2}deg)`;
 }
 
 function ch() {
